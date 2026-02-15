@@ -6,12 +6,10 @@ This program checks whether a mathematical expression has balanced parentheses, 
 ## Data Structures
 
 ### Stack Structure
-```c
 typedef struct {
     char data[MAX_SIZE]; 
     int top;              
 } Stack;
-```
 **Purpose**: The stack is used to keep track of opening brackets. When we encounter a closing bracket, we can check if it matches the most recent opening bracket by popping from the stack.
 
 ## Functions Implemented

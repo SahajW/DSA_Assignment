@@ -6,21 +6,17 @@ This program converts mathematical expressions from infix notation (normal mathe
 ## Data Structures
 
 ### Character Stack Structure
-```c
 typedef struct {
     char items[STACK_CAPACITY];  // Array to store characters (STACK_CAPACITY = 100)
     int topIndex;                // Index of top element (-1 when empty)
 } CharStack;
-```
 **Purpose**: Used during the infix-to-postfix conversion process to temporarily store operators and parentheses while maintaining proper precedence.
 
 ### Integer Stack Structure
-```c
 typedef struct {
     int items[STACK_CAPACITY];   // Array to store integer values
     int topIndex;                // Index of top element (-1 when empty)
 } IntStack;
-```
 **Purpose**: Used during postfix expression evaluation to store operands and intermediate calculation results.
 
 ## Functions Implemented

@@ -6,13 +6,12 @@ This program implements a simple doubly linked list with only two operations: in
 ## Data Structures
 
 ### Node Structure
-```c
 typedef struct Node {
     int data;           // Data stored in the node
     struct Node *prev;  // Pointer to previous node
     struct Node *next;  // Pointer to next node
 } Node;
-```
+
 
 ## Functions Implemented
 

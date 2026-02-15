@@ -7,7 +7,6 @@ The graph uses an adjacency matrix for representation:
 - Matrix element `graph[i][j] = 1` represents an edge connecting vertices `i` and `j`
 - Matrix element `graph[i][j] = 0` indicates no direct connection between vertices
 
----
 
 ## Algorithm Implementations
 

@@ -6,12 +6,10 @@ This program implements and demonstrates an algorithm for traversing a singly li
 ## Data Structures
 
 ### Node Structure
-```c
 struct Node {
     int value;              
     struct Node* nextPtr;   
 };
-```
 
 ## Functions Implemented
 
